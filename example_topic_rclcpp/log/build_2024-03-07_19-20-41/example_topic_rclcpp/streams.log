@@ -1,0 +1,70 @@
+[0.150s] Invoking command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp -- -j4 -l4
+[0.275s] [35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[0.306s] [ 50%] Built target topic_publisher_01
+[0.341s] [ 75%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[1.164s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:2:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #inlude; did you mean #include?
+[1.165s]     2 | #[01;31m[Kinlude[m[K "std_msgs/msg/string.hpp"
+[1.165s]       |  [01;31m[K^~~~~~[m[K
+[1.165s]       |  [32m[Kinclude[m[K
+[3.379s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[3.379s]    13 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr command_subscribe_;
+[3.379s]       |                          [01;31m[K^~~~~~~~[m[K
+[3.380s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.380s]    13 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr command_subscribe_;
+[3.380s]       |                                               [01;31m[K^[m[K
+[3.380s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[3.380s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[3.380s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[3.381s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.381s]    13 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K command_subscribe_;
+[3.381s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[3.381s]       |                                                           [32m[K;[m[K
+[3.382s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:13:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_subscribe_[m[K’ does not name a type
+[3.382s]    13 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Kcommand_subscribe_[m[K;
+[3.382s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.383s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:15:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+[3.383s]    15 |     void command_callback(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg){
+[3.383s]       |                                 [01;31m[K^~~~~~~~[m[K
+[3.383s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:15:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[3.384s]    15 |     void command_callback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg){
+[3.384s]       |                                              [01;31m[K^~[m[K
+[3.384s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:15:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[3.384s]    15 |     void command_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg){
+[3.384s]       |                          [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[3.384s]       |                                              [32m[K)[m[K
+[3.385s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:15:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.385s]    15 |     void command_callback(const std_msgs::[01;31m[Kmsg[m[K::String::SharedPtr msg){
+[3.385s]       |                                           [01;31m[K^~~[m[K
+[3.385s]       |                                              [32m[K;[m[K
+[3.386s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:15:48:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[3.386s]    15 |     void command_callback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg){
+[3.386s]       |                                                [01;31m[K^~~~~~[m[K
+[3.391s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:[m[K In constructor ‘[01m[KTopicSubscribe01::TopicSubscribe01(std::string)[m[K’:
+[3.391s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_subscribe_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+[3.391s]     9 |         [01;31m[Kcommand_subscribe_[m[K = this->create_subscription<std_msgs::msg::String>("command",10,std::bind(&TopicSubscribe01::command_callback,this,std::placeholders::_1));
+[3.391s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.392s]       |         [32m[Kcount_subscribers[m[K
+[3.395s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[3.395s]     9 |         command_subscribe_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>("command",10,std::bind(&TopicSubscribe01::command_callback,this,std::placeholders::_1));
+[3.395s]       |                                                        [01;31m[K^~~~~~~~[m[K
+[3.395s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.395s]     9 |         command_subscribe_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K("command",10,std::bind(&TopicSubscribe01::command_callback,this,std::placeholders::_1));
+[3.395s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.400s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTopicSubscribe01::create_subscription<<expression error> >(const char [8], int, std::_Bind_helper<false, void (TopicSubscribe01::*)(...), TopicSubscribe01*, const std::_Placeholder<1>&>::type)[m[K’
+[3.400s]     9 |         command_subscribe_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>("command",10,std::bind(&TopicSubscribe01::command_callback,this,std::placeholders::_1))[m[K;
+[3.401s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.401s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.401s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.401s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.401s]                  from [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:1[m[K:
+[3.401s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[3.401s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[3.401s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.402s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.402s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:9:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.402s]     9 |         command_subscribe_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>("command",10,std::bind(&TopicSubscribe01::command_callback,this,std::placeholders::_1))[m[K;
+[3.402s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.985s] gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:76：CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] 错误 1
+[3.987s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/topic_subscribe_01.dir/all] 错误 2
+[3.987s] gmake: *** [Makefile:146：all] 错误 2
+[3.991s] Invoked command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp -- -j4 -l4
