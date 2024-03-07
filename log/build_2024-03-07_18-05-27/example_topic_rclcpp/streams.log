@@ -1,0 +1,53 @@
+[0.101s] Invoking command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp
+[0.371s] -- The C compiler identification is GNU 11.4.0
+[0.629s] -- The CXX compiler identification is GNU 11.4.0
+[0.646s] -- Detecting C compiler ABI info
+[0.938s] -- Detecting C compiler ABI info - done
+[0.946s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.947s] -- Detecting C compile features
+[0.947s] -- Detecting C compile features - done
+[0.953s] -- Detecting CXX compiler ABI info
+[1.233s] -- Detecting CXX compiler ABI info - done
+[1.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.241s] -- Detecting CXX compile features
+[1.242s] -- Detecting CXX compile features - done
+[1.256s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.516s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.679s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.773s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.784s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.801s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.830s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.001s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.006s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.251s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.291s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.360s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.379s] -- Looking for pthread.h
+[2.620s] -- Looking for pthread.h - found
+[2.622s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.854s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.864s] -- Found Threads: TRUE  
+[3.164s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.310s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.311s] -- Configured cppcheck include dirs: 
+[3.311s] -- Configured cppcheck exclude dirs and/or files: 
+[3.312s] -- Added test 'lint_cmake' to check CMake code style
+[3.316s] -- Added test 'uncrustify' to check C / C++ code style
+[3.317s] -- Configured uncrustify additional arguments: 
+[3.317s] -- Added test 'xmllint' to check XML markup files
+[3.324s] -- Configuring done
+[3.381s] -- Generating done
+[3.385s] -- Build files have been written to: /home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp
+[3.405s] Invoked command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp
+[3.411s] Invoking command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp -- -j4 -l4
+[3.565s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[4.828s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+[4.828s]     2 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K //导入消息接口
+[4.828s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.828s] compilation terminated.
+[4.832s] gmake[2]: *** [CMakeFiles/topic_publisher_01.dir/build.make:76：CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o] 错误 1
+[4.832s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/topic_publisher_01.dir/all] 错误 2
+[4.833s] gmake: *** [Makefile:146：all] 错误 2
+[4.837s] Invoked command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp -- -j4 -l4

@@ -1,0 +1,46 @@
+[0.099s] Invoking command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp -- -j4 -l4
+[0.149s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.328s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.373s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.378s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.389s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.441s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.533s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.716s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.926s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.012s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.012s] -- Configured cppcheck include dirs: 
+[1.012s] -- Configured cppcheck exclude dirs and/or files: 
+[1.013s] -- Added test 'lint_cmake' to check CMake code style
+[1.016s] -- Added test 'uncrustify' to check C / C++ code style
+[1.016s] -- Configured uncrustify additional arguments: 
+[1.016s] -- Added test 'xmllint' to check XML markup files
+[1.019s] -- Configuring done
+[1.040s] -- Generating done
+[1.042s] -- Build files have been written to: /home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp
+[1.124s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[8.211s] [100%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[8.582s] [100%] Built target topic_publisher_01
+[8.615s] Invoked command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp -- -j4 -l4
+[8.738s] Invoking command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp
+[8.754s] -- Install configuration: ""
+[8.756s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp
+[8.756s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp
+[8.757s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh
+[8.757s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv
+[8.758s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh
+[8.758s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv
+[8.758s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash
+[8.759s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh
+[8.760s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh
+[8.760s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv
+[8.761s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv
+[8.761s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp
+[8.762s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake
+[8.762s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake
+[8.762s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
+[8.763s] -- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01
+[8.768s] -- Set runtime path of "/home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01" to ""
+[8.770s] Invoked command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp

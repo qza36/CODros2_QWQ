@@ -1,0 +1,10 @@
+[0.099s] Invoking command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp -- -j4 -l4
+[0.236s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[1.169s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+[1.169s]     2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K //导入消息接口
+[1.169s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.169s] compilation terminated.
+[1.171s] gmake[2]: *** [CMakeFiles/topic_publisher_01.dir/build.make:76：CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o] 错误 1
+[1.172s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/topic_publisher_01.dir/all] 错误 2
+[1.172s] gmake: *** [Makefile:146：all] 错误 2
+[1.175s] Invoked command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_topic_rclcpp -- -j4 -l4
