@@ -1,0 +1,51 @@
+[0.128s] Invoking command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp
+[0.173s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.393s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.445s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.451s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.595s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.597s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.781s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.021s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.191s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.191s] -- Configured cppcheck include dirs: 
+[1.191s] -- Configured cppcheck exclude dirs and/or files: 
+[1.198s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.210s] -- Added test 'lint_cmake' to check CMake code style
+[1.216s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.265s] -- Added test 'uncrustify' to check C / C++ code style
+[1.266s] -- Configured uncrustify additional arguments: 
+[1.272s] -- Added test 'xmllint' to check XML markup files
+[1.275s] -- Configuring done
+[1.317s] -- Generating done
+[1.321s] -- Build files have been written to: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp
+[1.336s] Invoked command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp
+[1.342s] Invoking command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp -- -j4 -l4
+[1.478s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[1.479s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[6.563s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:10:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[K;[m[K’ token
+[6.563s]    10 |     private[01;31m[K;[m[K
+[6.563s]       |            [01;31m[K^[m[K
+[6.563s]       |            [32m[K:[m[K
+[6.565s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:10:12:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.566s]    10 |     private[01;35m[K;[m[K
+[6.566s]       |            [01;35m[K^[m[K
+[6.566s]       |            [31m[K-[m[K
+[6.570s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.570s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:15:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shard[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kmake_shared[m[K’?
+[6.570s]    15 |     auto node = std::[01;31m[Kmake_shard[m[K<TopicSubscribe01>("topic_subscribe_01");
+[6.571s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[6.571s]       |                      [32m[Kmake_shared[m[K
+[6.571s] [01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:15:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[6.571s]    15 |     auto node = std::make_shard<TopicSubscribe01[01;31m[K>[m[K("topic_subscribe_01");
+[6.571s]       |                                                 [01;31m[K^[m[K
+[7.147s] gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:76：CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] 错误 1
+[7.148s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/topic_subscribe_01.dir/all] 错误 2
+[7.149s] gmake[1]: *** 正在等待未完成的任务....
+[8.202s] [ 75%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[8.548s] [ 75%] Built target topic_publisher_01
+[8.550s] gmake: *** [Makefile:146：all] 错误 2
+[8.554s] Invoked command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp -- -j4 -l4

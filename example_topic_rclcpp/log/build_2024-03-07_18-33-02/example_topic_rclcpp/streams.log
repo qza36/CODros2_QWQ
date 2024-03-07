@@ -1,0 +1,50 @@
+[0.126s] Invoking command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp
+[0.246s] -- The C compiler identification is GNU 11.4.0
+[0.366s] -- The CXX compiler identification is GNU 11.4.0
+[0.382s] -- Detecting C compiler ABI info
+[0.544s] -- Detecting C compiler ABI info - done
+[0.550s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.550s] -- Detecting C compile features
+[0.551s] -- Detecting C compile features - done
+[0.556s] -- Detecting CXX compiler ABI info
+[0.754s] -- Detecting CXX compiler ABI info - done
+[0.761s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.762s] -- Detecting CXX compile features
+[0.764s] -- Detecting CXX compile features - done
+[0.770s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.030s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.175s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.248s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.258s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.273s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.452s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.456s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.651s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.688s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.762s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.780s] -- Looking for pthread.h
+[1.969s] -- Looking for pthread.h - found
+[1.971s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.162s] -- Found Threads: TRUE  
+[2.423s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.579s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.579s] -- Configured cppcheck include dirs: 
+[2.579s] -- Configured cppcheck exclude dirs and/or files: 
+[2.583s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.591s] -- Added test 'lint_cmake' to check CMake code style
+[2.596s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.626s] -- Added test 'uncrustify' to check C / C++ code style
+[2.626s] -- Configured uncrustify additional arguments: 
+[2.632s] -- Added test 'xmllint' to check XML markup files
+[2.633s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[2.633s]   ament_target_dependencies() the first argument must be a valid target name
+[2.634s] Call Stack (most recent call first):
+[2.634s]   CMakeLists.txt:30 (ament_target_dependencies)
+[2.634s] 
+[2.634s] [0m
+[2.634s] -- Configuring incomplete, errors occurred!
+[2.634s] See also "/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp/CMakeFiles/CMakeOutput.log".
+[2.653s] Invoked command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/build/example_topic_rclcpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp

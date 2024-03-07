@@ -1,0 +1,20 @@
+[01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:10:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[K;[m[K’ token
+   10 |     private[01;31m[K;[m[K
+      |            [01;31m[K^[m[K
+      |            [32m[K:[m[K
+[01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:10:12:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   10 |     private[01;35m[K;[m[K
+      |            [01;35m[K^[m[K
+      |            [31m[K-[m[K
+[01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:15:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shard[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kmake_shared[m[K’?
+   15 |     auto node = std::[01;31m[Kmake_shard[m[K<TopicSubscribe01>("topic_subscribe_01");
+      |                      [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[Kmake_shared[m[K
+[01m[K/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:15:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   15 |     auto node = std::make_shard<TopicSubscribe01[01;31m[K>[m[K("topic_subscribe_01");
+      |                                                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:76：CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/topic_subscribe_01.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

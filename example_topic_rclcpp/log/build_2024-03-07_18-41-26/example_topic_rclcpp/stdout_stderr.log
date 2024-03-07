@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target topic_publisher_01[0m
+[35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[ 75%] Built target topic_publisher_01
+[100%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[100%] Built target topic_subscribe_01
+-- Install configuration: ""
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01
+-- Set runtime path of "/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01" to ""
+-- Installing: /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01
+-- Set runtime path of "/home/arlo/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01" to ""
