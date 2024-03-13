@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:12 (find_package):
+  By not providing "Findexample_action_rclcpp.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "example_action_rclcpp", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "example_action_rclcpp" with any of the following names:
+
+    example_action_rclcppConfig.cmake
+    example_action_rclcpp-config.cmake
+
+  Add the installation prefix of "example_action_rclcpp" to CMAKE_PREFIX_PATH
+  or set "example_action_rclcpp_DIR" to a directory containing one of the
+  above files.  If "example_action_rclcpp" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m

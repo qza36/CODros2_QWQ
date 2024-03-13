@@ -1,0 +1,52 @@
+[0.099s] Invoking command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_action_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_action_rclcpp -DCMAKE_INSTALL_PREFIX=/home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_action_rclcpp
+[0.499s] -- The C compiler identification is GNU 11.4.0
+[0.692s] -- The CXX compiler identification is GNU 11.4.0
+[0.715s] -- Detecting C compiler ABI info
+[0.883s] -- Detecting C compiler ABI info - done
+[0.885s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.887s] -- Detecting C compile features
+[0.888s] -- Detecting C compile features - done
+[0.894s] -- Detecting CXX compiler ABI info
+[1.050s] -- Detecting CXX compiler ABI info - done
+[1.054s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.055s] -- Detecting CXX compile features
+[1.055s] -- Detecting CXX compile features - done
+[1.084s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.318s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.531s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.668s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.686s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.713s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.757s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.800s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.975s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.981s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.184s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.218s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.306s] -- Looking for pthread.h
+[2.468s] -- Looking for pthread.h - found
+[2.470s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.612s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.614s] -- Found Threads: TRUE  
+[2.881s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.073s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[3.073s]   By not providing "Findrobot_control_interfaces.cmake" in CMAKE_MODULE_PATH
+[3.073s]   this project has asked CMake to find a package configuration file provided
+[3.073s]   by "robot_control_interfaces", but CMake did not find one.
+[3.073s] 
+[3.073s]   Could not find a package configuration file provided by
+[3.073s]   "robot_control_interfaces" with any of the following names:
+[3.073s] 
+[3.073s]     robot_control_interfacesConfig.cmake
+[3.074s]     robot_control_interfaces-config.cmake
+[3.074s] 
+[3.074s]   Add the installation prefix of "robot_control_interfaces" to
+[3.074s]   CMAKE_PREFIX_PATH or set "robot_control_interfaces_DIR" to a directory
+[3.074s]   containing one of the above files.  If "robot_control_interfaces" provides
+[3.074s]   a separate development package or SDK, be sure it has been installed.
+[3.074s] 
+[3.074s] [0m
+[3.074s] -- Configuring incomplete, errors occurred!
+[3.074s] See also "/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_action_rclcpp/CMakeFiles/CMakeOutput.log".
+[3.085s] Invoked command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_action_rclcpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_action_rclcpp -DCMAKE_INSTALL_PREFIX=/home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_action_rclcpp

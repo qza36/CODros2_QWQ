@@ -1,0 +1,32 @@
+[0.091s] Invoking command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_action_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_action_rclcpp -DCMAKE_INSTALL_PREFIX=/home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_action_rclcpp
+[0.108s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.277s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.319s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.324s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.333s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.444s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.446s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.775s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.899s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.899s]   By not providing "Findexample_action_rclcpp.cmake" in CMAKE_MODULE_PATH
+[0.899s]   this project has asked CMake to find a package configuration file provided
+[0.899s]   by "example_action_rclcpp", but CMake did not find one.
+[0.899s] 
+[0.899s]   Could not find a package configuration file provided by
+[0.899s]   "example_action_rclcpp" with any of the following names:
+[0.899s] 
+[0.899s]     example_action_rclcppConfig.cmake
+[0.900s]     example_action_rclcpp-config.cmake
+[0.900s] 
+[0.900s]   Add the installation prefix of "example_action_rclcpp" to CMAKE_PREFIX_PATH
+[0.900s]   or set "example_action_rclcpp_DIR" to a directory containing one of the
+[0.900s]   above files.  If "example_action_rclcpp" provides a separate development
+[0.900s]   package or SDK, be sure it has been installed.
+[0.900s] 
+[0.900s] [0m
+[0.900s] -- Configuring incomplete, errors occurred!
+[0.900s] See also "/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_action_rclcpp/CMakeFiles/CMakeOutput.log".
+[0.910s] Invoked command in '/home/arlo/d2lros2/chapt3/chapt3_ws/src/build/example_action_rclcpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arlo/d2lros2/chapt3/chapt3_ws/src/example_action_rclcpp -DCMAKE_INSTALL_PREFIX=/home/arlo/d2lros2/chapt3/chapt3_ws/src/install/example_action_rclcpp
