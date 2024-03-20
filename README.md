@@ -12,3 +12,4 @@
     robot_control_interfaces-config.cmake
 
 ```
+## 2024/3/20 安装miniconda与jupyer,实现jupyer与ros2通信
