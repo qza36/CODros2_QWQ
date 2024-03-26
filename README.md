@@ -13,3 +13,4 @@
 
 ```
 ## 2024/3/20 安装miniconda与jupyer,实现jupyer与ros2通信
+## 2024/3/26 URDF统一机器人建模语言，了解URDF组成，了解Joint和link
